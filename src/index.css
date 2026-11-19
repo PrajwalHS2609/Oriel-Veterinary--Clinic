@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #11191B;
+  --color-midnight: #123A3E;
+  --color-pine: #174D46;
+  --color-mint: #5DE0C1;
+  --color-champagne: #D6B77A;
+  --color-ivory: #F7F4EC;
+  --color-sage: #A8C6B5;
+  --color-aqua: #DDF1EB;
+  --color-slate-muted: #87979A;
+
+  --font-display: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: #11191B;
+    color: #F7F4EC;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid #5DE0C1;
+    outline-offset: 3px;
+  }
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.editorial-arch-mask {
+  border-radius: 9999px 9999px 24px 24px;
+}
+
+.editorial-asym-mask {
+  border-radius: 36px 8px 36px 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Oriel Veterinary Clinic",
+  "description": "Modern veterinary medicine, preventive diagnostics, surgical care, and compassionate lifelong healthcare for dogs and cats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
