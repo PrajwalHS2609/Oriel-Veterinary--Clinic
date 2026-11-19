@@ -1,12 +1,21 @@
+import heroEditorialImg from '../assets/images/hero_vet_editorial_1795097714101.jpg';
+import sculpturalArtImg from '../assets/images/sculptural_3d_pet_art_1795098254969.jpg';
+import clinicReceptionImg from '../assets/images/clinic_architecture_suite_1795097697531.jpg';
+import diagnosticsSuiteImg from '../assets/images/diagnostics_lab_suite_1795097699819.jpg';
+import doctorLeadImg from '../assets/images/doctor_lead_portrait_1795097810248.jpg';
+import doctorSurgeonImg from '../assets/images/doctor_surgeon_portrait_1795097706441.jpg';
+import doctorFelineImg from '../assets/images/doctor_feline_portrait_1795097737774.jpg';
+import companionPortraitImg from '../assets/images/companion_wellness_portrait_1795097747193.jpg';
+
 export const CLINIC_IMAGES = {
-  heroEditorial: '/src/assets/images/hero_vet_editorial_1795097714101.jpg',
-  sculpturalArt: '/src/assets/images/sculptural_3d_pet_art_1795098254969.jpg',
-  clinicReception: '/src/assets/images/clinic_architecture_suite_1795097697531.jpg',
-  diagnosticsSuite: '/src/assets/images/diagnostics_lab_suite_1795097699819.jpg',
-  doctorLead: '/src/assets/images/doctor_lead_portrait_1795097810248.jpg',
-  doctorSurgeon: '/src/assets/images/doctor_surgeon_portrait_1795097706441.jpg',
-  doctorFeline: '/src/assets/images/doctor_feline_portrait_1795097737774.jpg',
-  companionPortrait: '/src/assets/images/companion_wellness_portrait_1795097747193.jpg',
+  heroEditorial: heroEditorialImg,
+  sculpturalArt: sculpturalArtImg,
+  clinicReception: clinicReceptionImg,
+  diagnosticsSuite: diagnosticsSuiteImg,
+  doctorLead: doctorLeadImg,
+  doctorSurgeon: doctorSurgeonImg,
+  doctorFeline: doctorFelineImg,
+  companionPortrait: companionPortraitImg,
 } as const;
 
 export const CLINIC_INFO = {
